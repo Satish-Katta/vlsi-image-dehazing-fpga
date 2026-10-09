@@ -17,8 +17,6 @@ image, validated in MATLAB and implemented in Verilog HDL on a Zynq-7000 FPGA.
 - 7-stage pipelined architecture
 - 12-bit fixed-point (Q0.12)
 
-## 🏗 Architecture
-![Block Diagram](docs/fig2_block_diagram.png)
 
 ## 📊 Results
 | Metric | Value |
