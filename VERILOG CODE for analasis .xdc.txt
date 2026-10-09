@@ -1,0 +1,91 @@
+
+set_property PACKAGE_PIN R7 [get_ports clk]
+set_property IOSTANDARD LVCMOS33 [get_ports clk]
+set_property CLOCK_DEDICATED_ROUTE FALSE [get_nets clk_IBUF]
+
+
+set_property PACKAGE_PIN V10 [get_ports reset]
+set_property IOSTANDARD LVCMOS33 [get_ports reset]
+
+
+set_property PACKAGE_PIN V9 [get_ports {pixel_R_in[0]}]
+set_property PACKAGE_PIN V8 [get_ports {pixel_R_in[1]}]
+set_property PACKAGE_PIN W8 [get_ports {pixel_R_in[2]}]
+set_property PACKAGE_PIN W11 [get_ports {pixel_R_in[3]}]
+set_property PACKAGE_PIN W10 [get_ports {pixel_R_in[4]}]
+set_property PACKAGE_PIN V12 [get_ports {pixel_R_in[5]}]
+set_property PACKAGE_PIN W12 [get_ports {pixel_R_in[6]}]
+set_property PACKAGE_PIN U12 [get_ports {pixel_R_in[7]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {pixel_R_in[*]}]
+
+
+set_property PACKAGE_PIN U11 [get_ports {pixel_G_in[0]}]
+set_property PACKAGE_PIN U10 [get_ports {pixel_G_in[1]}]
+set_property PACKAGE_PIN U9 [get_ports {pixel_G_in[2]}]
+set_property PACKAGE_PIN AA12 [get_ports {pixel_G_in[3]}]
+set_property PACKAGE_PIN AB12 [get_ports {pixel_G_in[4]}]
+set_property PACKAGE_PIN AA11 [get_ports {pixel_G_in[5]}]
+set_property PACKAGE_PIN AB11 [get_ports {pixel_G_in[6]}]
+set_property PACKAGE_PIN AB10 [get_ports {pixel_G_in[7]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {pixel_G_in[*]}]
+
+
+set_property PACKAGE_PIN AB9 [get_ports {pixel_B_in[0]}]
+set_property PACKAGE_PIN Y11 [get_ports {pixel_B_in[1]}]
+set_property PACKAGE_PIN Y10 [get_ports {pixel_B_in[2]}]
+set_property PACKAGE_PIN AA9 [get_ports {pixel_B_in[3]}]
+set_property PACKAGE_PIN AA8 [get_ports {pixel_B_in[4]}]
+set_property PACKAGE_PIN Y9 [get_ports {pixel_B_in[5]}]
+set_property PACKAGE_PIN Y8 [get_ports {pixel_B_in[6]}]
+set_property PACKAGE_PIN Y6 [get_ports {pixel_B_in[7]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {pixel_B_in[*]}]
+
+
+set_property PACKAGE_PIN Y5 [get_ports pixel_valid]
+set_property IOSTANDARD LVCMOS33 [get_ports pixel_valid]
+
+
+set_property PACKAGE_PIN AA7 [get_ports pass_start]
+set_property IOSTANDARD LVCMOS33 [get_ports pass_start]
+
+
+set_property PACKAGE_PIN AA6 [get_ports {pixel_R_out[0]}]
+set_property PACKAGE_PIN AB2 [get_ports {pixel_R_out[1]}]
+set_property PACKAGE_PIN AB1 [get_ports {pixel_R_out[2]}]
+set_property PACKAGE_PIN AB5 [get_ports {pixel_R_out[3]}]
+set_property PACKAGE_PIN AB4 [get_ports {pixel_R_out[4]}]
+set_property PACKAGE_PIN AB7 [get_ports {pixel_R_out[5]}]
+set_property PACKAGE_PIN AB6 [get_ports {pixel_R_out[6]}]
+set_property PACKAGE_PIN Y4 [get_ports {pixel_R_out[7]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {pixel_R_out[*]}]
+
+
+set_property PACKAGE_PIN AA4 [get_ports {pixel_G_out[0]}]
+set_property PACKAGE_PIN R6 [get_ports {pixel_G_out[1]}]
+set_property PACKAGE_PIN T6 [get_ports {pixel_G_out[2]}]
+set_property PACKAGE_PIN T4 [get_ports {pixel_G_out[3]}]
+set_property PACKAGE_PIN U4 [get_ports {pixel_G_out[4]}]
+set_property PACKAGE_PIN V5 [get_ports {pixel_G_out[5]}]
+set_property PACKAGE_PIN V4 [get_ports {pixel_G_out[6]}]
+set_property PACKAGE_PIN U6 [get_ports {pixel_G_out[7]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {pixel_G_out[*]}]
+
+
+set_property PACKAGE_PIN U5 [get_ports {pixel_B_out[0]}]
+set_property PACKAGE_PIN V7 [get_ports {pixel_B_out[1]}]
+set_property PACKAGE_PIN W7 [get_ports {pixel_B_out[2]}]
+set_property PACKAGE_PIN W6 [get_ports {pixel_B_out[3]}]
+set_property PACKAGE_PIN W5 [get_ports {pixel_B_out[4]}]
+set_property PACKAGE_PIN U7 [get_ports {pixel_B_out[5]}]
+set_property PACKAGE_PIN U19 [get_ports {pixel_B_out[6]}]
+set_property PACKAGE_PIN T21 [get_ports {pixel_B_out[7]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {pixel_B_out[*]}]
+
+set_property PACKAGE_PIN U21 [get_ports pixel_out_valid]
+set_property IOSTANDARD LVCMOS33 [get_ports pixel_out_valid]
+
+
+set_property PACKAGE_PIN T22 [get_ports busy]
+set_property IOSTANDARD LVCMOS33 [get_ports busy]
+
+
